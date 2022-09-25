@@ -1,0 +1,20 @@
+
+Python coding excercise
+========================
+
+Write a re-usable, unit-tested, piece of python code that returns the name and population of the county whose population is closest (in absolute) to the average population of all counties, for a given year.
+The data can be fetched from this URL: https://datausa.io/api/data?drilldowns=County&measures=Population . In case the data is not accessible, a copy is included with this email  (population_per_county.json) that you can use instead (although, at the time of writing, the data is available from the URI).
+If the population of the county is within +-100 of the average, print the county's record to the standard output stream, in json format (e.g. {"ID County":"05000US01001","County":"Autauga County, AL","ID Year":2020,"Year":"2020","Population":55639,"Slug County":"autauga-county-al"})
+Most unexpected runtime errors should raise a custom exception (defined by you), and log an error message in the standard error stream.
+
+The expected output for this assignement is a zip file containing:
+- the implementation in python of the solution: 1 python file
+- unittests: 1 python file
+
+Guidelines and suggestions:
+- The assignement is expected to take from 30 minutes to 1 hour to complete. If it takes you a lot more time, keep it simple and/or simply write a comment explaining your ideas.
+- Use OOP to provide an easy to use and easy to maintain piece of code.
+- Use type annotations.
+- Use python3, the minor version does not matter.
+- You can use standard python libraries, as well as any open source library.
+- There are many acceptable solutions to this challenge, so you might have to make decisions and/or compromises.
