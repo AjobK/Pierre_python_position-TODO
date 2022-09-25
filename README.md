@@ -1,1 +1,1 @@
-The python files can be found under the folder 'assignment_code'"# Pierre_python_position-TODO" 
+The python files can be found under the folder 'assignment_code'
